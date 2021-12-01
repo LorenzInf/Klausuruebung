@@ -21,7 +21,7 @@ public class Fahrzeug {
         return typNummer;
     }
 
-    public int getPs() {
+    public int getPS() {
         return ps;
     }
 

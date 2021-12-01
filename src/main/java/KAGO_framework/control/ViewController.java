@@ -317,7 +317,8 @@ public class ViewController implements ActionListener, KeyListener, MouseListene
      * @param b der gewünschte Sichtbarkeitsstatus
      */
     public void setDrawFrameVisible(boolean b){
-        drawFrame.setVisible(b);
+        // FIXME CHNAGES!!!!!!!!!
+        drawFrame.setVisible(false);
     }
 
     /* INTERFACE METHODEN */

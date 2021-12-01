@@ -1,6 +1,7 @@
 package my_project.control;
 
 import KAGO_framework.control.ViewController;
+import KAGO_framework.model.abitur.datenstrukturen.List;
 import my_project.model.Fahrzeug;
 
 /**
@@ -31,13 +32,9 @@ public class ProgramController {
      * Sie erstellt die leeren Datenstrukturen, zu Beginn nur eine Queue
      */
     public void startProgram() {
-        erstelleZufaelligesFahrzeug();
+
     }
 
-    public void erstelleZufaelligesFahrzeug(){
-        Fahrzeug newFahrzeug = new Fahrzeug((int) (Math.random() * 999 + 1), (int) (Math.random() * 170 + 31), (int) (Math.random() * 2 + 3));
-        System.out.println(newFahrzeug.getTypNummer() + " " + newFahrzeug.getPs() + " " + newFahrzeug.getAnzahlRaeder());
-    }
 
 
     /**
